@@ -2,7 +2,7 @@ Summary:	Wrapper library for reading or writing gzip/bzip2 files
 Summary(pl):	Biblioteka po¶rednia do odczytu i zapisu plików gzip/bzip2
 Name:		libzio
 Version:	0.2
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries
 Source0:	http://ftp.suse.com/pub/people/werner/libzio/%{name}-%{version}.tar.bz2
@@ -57,7 +57,8 @@ Statyczna biblioteka libzio.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT
+	DESTDIR=$RPM_BUILD_ROOT \
+	libdir=%{_libdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
