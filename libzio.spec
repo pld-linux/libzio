@@ -1,5 +1,5 @@
 Summary:	Wrapper library for reading or writing gzip/bzip2 files
-Summary(pl):	Biblioteka po∂rednia do odczytu i zapisu plikÛw gzip/bzip2
+Summary(pl.UTF-8):   Biblioteka po≈õrednia do odczytu i zapisu plik√≥w gzip/bzip2
 Name:		libzio
 Version:	0.2
 Release:	2
@@ -16,33 +16,33 @@ This small library provides with the help of the fopencookie(3) of the
 glibc and the libz and libbz2 a simple interface for reading or
 writing gzip/bzip2 files.
 
-%description -l pl
-Ta ma≥a biblioteka z pomoc± funkcji fopencookie(3) z glibc i bibliotek
-libz/libbz2 dostarcza prosty interfejs do odczytu i zapisu plikÛw
+%description -l pl.UTF-8
+Ta ma≈Ça biblioteka z pomocƒÖ funkcji fopencookie(3) z glibc i bibliotek
+libz/libbz2 dostarcza prosty interfejs do odczytu i zapisu plik√≥w
 gzip/bzip2.
 
 %package devel
 Summary:	Header files for libzio library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libzio
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libzio
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for libzio library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libzio.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libzio.
 
 %package static
 Summary:	Static libzio library
-Summary(pl):	Statyczna biblioteka libzio
+Summary(pl.UTF-8):   Statyczna biblioteka libzio
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libzio library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libzio.
 
 %prep
