@@ -1,5 +1,5 @@
 Summary:	Wrapper library for reading or writing gzip/bzip2 files
-Summary(pl.UTF-8):   Biblioteka pośrednia do odczytu i zapisu plików gzip/bzip2
+Summary(pl.UTF-8):	Biblioteka pośrednia do odczytu i zapisu plików gzip/bzip2
 Name:		libzio
 Version:	0.2
 Release:	2
@@ -23,7 +23,7 @@ gzip/bzip2.
 
 %package devel
 Summary:	Header files for libzio library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libzio
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libzio
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -35,7 +35,7 @@ Pliki nagłówkowe biblioteki libzio.
 
 %package static
 Summary:	Static libzio library
-Summary(pl.UTF-8):   Statyczna biblioteka libzio
+Summary(pl.UTF-8):	Statyczna biblioteka libzio
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
