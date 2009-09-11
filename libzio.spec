@@ -1,5 +1,5 @@
-Summary:	Wrapper library for reading or writing gzip/bzip2 files
-Summary(pl.UTF-8):	Biblioteka pośrednia do odczytu i zapisu plików gzip/bzip2
+Summary:	Wrapper library for reading or writing gzip/bzip2/lzma/xz files
+Summary(pl.UTF-8):	Biblioteka pośrednia do odczytu i zapisu plików gzip/bzip2/lzma/xz
 Name:		libzio
 Version:	0.99
 Release:	1
@@ -15,13 +15,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This small library provides with the help of the fopencookie(3) of the
-glibc and the libz and libbz2 a simple interface for reading or
-writing gzip/bzip2 files.
+glibc and the libz, libbz2 and libzma a simple interface for reading
+or writing gzip/bzip2/lzma/xz files.
 
 %description -l pl.UTF-8
 Ta mała biblioteka przy pomocy funkcji fopencookie(3) z glibc i
-bibliotek libz/libbz2 dostarcza prosty interfejs do odczytu i zapisu
-plików gzip/bzip2.
+bibliotek libz/libbz2/liblzma dostarcza prosty interfejs do odczytu i
+zapisu plików gzip/bzip2/lzma/xz.
 
 %package devel
 Summary:	Header files for libzio library
