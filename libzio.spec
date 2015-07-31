@@ -1,12 +1,12 @@
 Summary:	Wrapper library for reading or writing gzip/bzip2/lzma/xz files
 Summary(pl.UTF-8):	Biblioteka pośrednia do odczytu i zapisu plików gzip/bzip2/lzma/xz
 Name:		libzio
-Version:	0.99
+Version:	1.02
 Release:	1
 License:	GPL v2+
 Group:		Libraries
-Source0:	http://dl.sourceforge.net/project/libzio/libzio/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	3b8ab956f4ecd27b8d42cd3dea53f6a3
+Source0:	http://downloads.sourceforge.net/libzio/%{name}-%{version}.tar.bz2
+# Source0-md5:	b1d94e51ee8c963335510881b677a55f
 URL:		http://libzio.sourceforge.net/
 BuildRequires:	bzip2-devel
 BuildRequires:	xz-devel
@@ -72,7 +72,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %attr(755,root,root) %{_libdir}/libzio.so.*.*
-%attr(755,root,root) %ghost %{_libdir}/libzio.so.0
+%attr(755,root,root) %ghost %{_libdir}/libzio.so.1
 
 %files devel
 %defattr(644,root,root,755)
