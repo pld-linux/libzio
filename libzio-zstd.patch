@@ -1,0 +1,13 @@
+--- libzio-1.09/zioP.h.orig	2021-06-08 14:42:09.211069821 +0200
++++ libzio-1.09/zioP.h	2024-11-17 13:16:26.656806607 +0100
+@@ -150,6 +150,10 @@ weak_symbol(ZSTD_freeCStream);
+ weak_symbol(ZSTD_freeDStream);
+ weak_symbol(ZSTD_isError);
+ weak_symbol(ZSTD_getErrorName);
++weak_symbol(ZSTD_CStreamInSize);
++weak_symbol(ZSTD_DStreamOutSize);
++weak_symbol(ZSTD_CStreamOutSize);
++weak_symbol(ZSTD_DStreamInSize);
+ # endif
+ #endif
+ 
